@@ -1,0 +1,57 @@
+.face-lockup
+  max-width: 780px
+  +display(flex)
+  margin: 0 auto
+  +align-items(center)
+  +justify-content(space-between)
+
+  .face-img
+    border-radius: 50%
+    background-size: cover
+    background-position: center
+    background-image: url(../img/#{$avatar-path})
+    +size(200px)
+    +order(3)
+
+  [class^="icon-"]
+    +size(100px)
+    border-radius: 50%
+
+
+    &.icon-ph1
+      +order(1)
+    &.icon-ph2
+      +order(2)
+    &.icon-ph3
+      +order(4)
+    &.icon-ph4
+      +order(5)
+
+
+@media screen and (max-width: 650px)
+  .face-lockup
+    display: block
+    text-align: center
+
+    div
+      display: inline-block
+
+    .face-img
+      display: block
+      background:
+        position: center center
+        repeat: no-repeat
+      margin: 0 auto 30px
+
+    [class^="icon-"]
+      margin: 10px 9%
+
+
+.blurb
+  max-width: 800px
+  padding: 0 20px
+  margin: 50px auto
+  font-size: 20px
+  text-align: center
+  font-weight: 300
+
