@@ -12,6 +12,6 @@ sass:
   sass_dir: assets/css
   style: :nested
 
-domain: artsealive-preview.sites.dev.samcarpentier.com
-url: https://artsealive-preview.sites.dev.samcarpentier.com
+domain: www-dev.artsealive.com
+url: https://www-dev.artsealive.com
 baseurl: /
