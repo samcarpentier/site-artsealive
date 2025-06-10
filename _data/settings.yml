@@ -3,7 +3,7 @@
 
 title: ArtSeaLive
 description: Artiste multidisciplinaire
-email: tbd@live.fr
+email: artiste@artsealive.com
 
 # NOTE: The Logo and Background image are defined in the all.sass document.
 
@@ -35,11 +35,20 @@ blurb: >
 # Work Section
 
 projects:
-- {name: Oeuvre 1, folder: 'proj-1', file: 'work/proj-1.html'}
-- {name: Oeuvre 2, folder: 'proj-2', file: 'work/proj-2.html'}
-- {name: Oeuvre 3, folder: 'proj-3', file: 'work/proj-3.html'}
-- {name: Oeuvre 4, folder: 'proj-4', file: 'work/proj-4.html'}
-
+  - { name: L'abri (2010), folder: 'abri' }
+  - { name: Les gardiens d'Éden (2024), folder: 'gardiens-eden' }
+  - { name: Ricochets lumineux (2024), folder: 'ricochets-lumineux' }
+  - { name: Vivre sous bulle (2009), folder: 'vivre-sous-bulle' }
+  - { name: Échouée (20xx), folder: 'echouee' }
+  - { name: Fleurs du temps (20xx), folder: 'fleurs-vent' }
+  - { name: Chimie (2020), folder: 'chimie' }
+  - { name: Florescence insolite (2024), folder: 'florescence-insolite' }
+  - { name: Phoenix (20xx), folder: 'phoenix' }
+  - { name: Urbanité (2009), folder: 'urbanite' }
+  - { name: Voyage du temps (2018-2020), folder: voyage-temps}
+  - { name: Voix d'un songe d'enfant (20xx), folder: 'voix-songe-enfant' }
+  - { name: Sortie de l'ange (20xx), folder: 'sortie-ange' }
+  - { name: Réverbération (20xx), folder: 'reverberation' }
 
 #-------------------------------
 # Contact Section

@@ -14,7 +14,7 @@
         {% for project in site.data.settings.projects %}
         <label for="{{ project.folder }}">
           <div class="thumb-unit" data-url="{{ site.github.url }}/work/{{ project.folder }}/">
-            <img src="{{ site.github.url }}/assets/img/work/{{project.folder}}/thumb.jpg" alt="{{ project.name }}" />
+            <img src="{{ site.github.url }}/assets/img/work/{{project.folder}}/img1.jpg" alt="{{ project.name }}" />
           </div>
           <div class="thumb-overlay">
             <strong>{{ project.name }}</strong>
@@ -31,18 +31,6 @@
         </label>
         <h4 class="project-title"></h4>
         <div class="project-load"></div>
-
-        <noscript>
-          {% for project in site.data.settings.projects %}
-          <div class="noscript" id="content-{{ project.folder }}">
-            <h4 class="project-title">{{ project.name }}</h4>
-            <div class="noscript-load">
-              {% include {{project.file}} %}
-            </div>
-          </div>
-          {% endfor %}
-        </noscript>
-
       </div>
     </div>
 
